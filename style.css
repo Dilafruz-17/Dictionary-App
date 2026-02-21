@@ -2,10 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0px;
+    border: 0;
+    padding: 0;
 }
 
 body{
-    background-color: #282c32;
+    background-color: #1c2025;
 }
  
 nav{
@@ -14,24 +16,29 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    padding: 14px;
+    padding: 10px;
     align-items: center;
-    border-radius: 30px;
-    box-shadow:0px 0px 8px 3px #454b54;
+    border-radius: 40px;
+    background-color: #1f2329;
+    box-shadow:0px 0px 8px 3px #3a3f46;
 }
 
 .nav-item{
     color: #adaeb1;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 
-.nav-item i{
-    font-size: 20px;
+i{
+    font-size: 18px;
+    color: #adaeb1;
 }
 
 .header{
-    color: #9a9c9d;
-    margin: 15px;
+    margin: 20px;
+    color: #b2b3b3;
     text-shadow: 0px 0px 10px #6a6c6f;
 }
