@@ -51,3 +51,39 @@
 .search-result a{
     text-decoration: none;
 }
+
+.search-words-container{
+    margin: 17px;
+    background-color: #282c32;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.search-words{
+    background-color: #3b4049;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-words i{
+    color: #adaeb1;
+    text-shadow: 0px 0px 7px #cfcfcf;
+    font-size: 25px;
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #b7b7b8;
+    font-size: 14px;
+}
+
+ 

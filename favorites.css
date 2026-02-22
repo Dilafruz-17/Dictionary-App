@@ -22,11 +22,11 @@
     padding: 10px 20px;
 }
 
-.words i:hover{
+.words i{
     color: rgb(252, 217, 16);
     cursor: pointer;
-    transition: 0.5s;
     text-shadow: 0px 0px 6px #f3f70b;
+    font-size: 24px;
 }
 
 .word{
@@ -37,8 +37,4 @@
     font-size: 14px;
 }
 
-.words i{
-    color: #adaeb1;
-    text-shadow: 0px 0px 7px #cfcfcf;
-    font-size: 25px;
-}
+ 
