@@ -22,6 +22,10 @@
     padding: 10px 20px;
 }
 
+.words:hover{
+    border: 2px solid #53585c;
+}
+
 .word{
     display: flex;
     flex-direction: column;

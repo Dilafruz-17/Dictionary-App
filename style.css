@@ -31,6 +31,14 @@ nav{
     gap: 7px;
 }
 
+.nav-item:hover{
+    color: #eef2f4;
+}
+
+i:hover{
+    color: #eef2f4;
+}
+
 i{
     font-size: 18px;
     color: #adaeb1;

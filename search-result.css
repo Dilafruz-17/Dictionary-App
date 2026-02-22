@@ -1,0 +1,35 @@
+.search-word-result{
+    background-color: #2d2d36;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.narrow{
+    margin: 20px;
+}
+
+.narrow:hover{
+    color:#c2c2c7;
+}
+
+.search-word-result p{
+    color: #c2c2c7;
+    margin: 10px;
+}
+
+.word-shapes{
+    display: flex;
+    gap: 20px;
+}
+
+.shape{
+    background-color: #828287;
+    padding: 10px;
+    border-radius: 20px;
+    color: #23232b;
+    box-shadow:0px 0px 8px 3px #3a3f46;
+    margin-top: 40px;
+}
+
+ 
