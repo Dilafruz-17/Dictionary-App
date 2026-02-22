@@ -22,8 +22,11 @@
     padding: 10px 20px;
 }
 
-.words:hover{
-    border: 2px solid #53585c;
+.words i:hover{
+    color: rgb(252, 217, 16);
+    cursor: pointer;
+    transition: 0.5s;
+    text-shadow: 0px 0px 6px #f3f70b;
 }
 
 .word{

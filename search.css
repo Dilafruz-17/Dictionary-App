@@ -8,11 +8,21 @@
     gap: 20px;
 }
 
+.search-box i{
+    color: #b7b7b8;
+    font-size: 18px;
+}
+
 .search-box input{
     background-color: #40474d;
     outline: none;
+    border: none;
     width: 100%;
     color: white;
+}
+
+.search-box input::placeholder{
+    color: #b7b7b8;
 }
 
 .word-result{
@@ -21,8 +31,8 @@
     gap: 15px;
     color: #b7b7b8;
     font-size: 14px;
-    background-color: #36363f;
-    border-radius: 20px;
+    background-color: #3b4049;
+    border-radius: 10px;
     padding: 10px;
 }
 
