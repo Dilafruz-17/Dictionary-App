@@ -25,13 +25,12 @@
 
 .word-shapes{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
 }
 
 .shape{
     background-color: #828287;
-    padding: 10px;
+    padding: 8px;
     border-radius: 20px;
     color: #23232b;
     box-shadow:0px 0px 8px 3px #3a3f46;

@@ -78,6 +78,10 @@
     font-size: 25px;
 }
 
+.search-words {
+    text-decoration: none;
+}
+
 .word{
     display: flex;
     flex-direction: column;
